@@ -13,7 +13,7 @@ const clearTokens = () => {
   // No refresh_token — it lives in HTTP-only cookie now
 }
 
-// Request interceptor: attach access token
+// Request interceptor: attach access tokenn
 api.interceptors.request.use(
   (config) => {
     const token = getAccessToken()
